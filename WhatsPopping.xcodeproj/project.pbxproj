@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C01DB53AF6C80B2DBD1FE5 /* Pods_WhatsPopping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BBD8E65EF4D3A1291491D5 /* Pods_WhatsPopping.framework */; };
+		5FC90D5D281DB423002A2A7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FC90D5C281DB423002A2A7A /* GoogleService-Info.plist */; };
+		978FEBAF27DFC7B200C925D7 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978FEBAE27DFC7B200C925D7 /* RatingView.swift */; };
+		B912C3AE4071CAA37EDAFED7 /* Pods_WhatsPopping_WhatsPoppingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53C7AC4CACE0DD970C2953F /* Pods_WhatsPopping_WhatsPoppingUITests.framework */; };
+		D882D56227D186A300C9546E /* WhatsPoppingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882D56127D186A300C9546E /* WhatsPoppingApp.swift */; };
+		D882D56427D186A300C9546E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882D56327D186A300C9546E /* ContentView.swift */; };
+		D882D56627D186A600C9546E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D882D56527D186A600C9546E /* Assets.xcassets */; };
+		D882D56927D186A600C9546E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D882D56827D186A600C9546E /* Preview Assets.xcassets */; };
+		D882D57327D186A700C9546E /* WhatsPoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882D57227D186A700C9546E /* WhatsPoppingTests.swift */; };
+		D882D57D27D186A700C9546E /* WhatsPoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882D57C27D186A700C9546E /* WhatsPoppingUITests.swift */; };
+		D882D57F27D186A700C9546E /* WhatsPoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882D57E27D186A700C9546E /* WhatsPoppingUITestsLaunchTests.swift */; };
+		D882D58F27D1882D00C9546E /* ReviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882D58E27D1882D00C9546E /* ReviewList.swift */; };
+		D8C3D4562809F47300E8D7DF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C3D4552809F47300E8D7DF /* LoginController.swift */; };
+		D8F98DBE2808983C00A5B195 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F98DBD2808983C00A5B195 /* LoginView.swift */; };
+		FC83569268A535CE3AACFE00 /* Pods_WhatsPoppingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2505615C649B8A40D639549 /* Pods_WhatsPoppingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D882D56F27D186A700C9546E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D882D55627D186A300C9546E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D882D55D27D186A300C9546E;
+			remoteInfo = WhatsPopping;
+		};
+		D882D57927D186A700C9546E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D882D55627D186A300C9546E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D882D55D27D186A300C9546E;
+			remoteInfo = WhatsPopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0920662E889199D36BAD0B3E /* Pods-WhatsPopping-WhatsPoppingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPopping-WhatsPoppingUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsPopping-WhatsPoppingUITests/Pods-WhatsPopping-WhatsPoppingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32EC6225D1E89FBA2FD6B978 /* Pods-WhatsPopping-WhatsPoppingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPopping-WhatsPoppingUITests.release.xcconfig"; path = "Target Support Files/Pods-WhatsPopping-WhatsPoppingUITests/Pods-WhatsPopping-WhatsPoppingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43BBD8E65EF4D3A1291491D5 /* Pods_WhatsPopping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsPopping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4887AFC0648CAC609C7EF0C3 /* Pods-WhatsPopping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPopping.release.xcconfig"; path = "Target Support Files/Pods-WhatsPopping/Pods-WhatsPopping.release.xcconfig"; sourceTree = "<group>"; };
+		5FC90D5C281DB423002A2A7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		88F1097200CCFD821A5E1317 /* Pods-WhatsPopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPopping.debug.xcconfig"; path = "Target Support Files/Pods-WhatsPopping/Pods-WhatsPopping.debug.xcconfig"; sourceTree = "<group>"; };
+		978FEBAE27DFC7B200C925D7 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		A53C7AC4CACE0DD970C2953F /* Pods_WhatsPopping_WhatsPoppingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsPopping_WhatsPoppingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95F57F755733B55E220CF63 /* Pods-WhatsPoppingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPoppingTests.release.xcconfig"; path = "Target Support Files/Pods-WhatsPoppingTests/Pods-WhatsPoppingTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF2597C826DE3429A034B63 /* Pods-WhatsPoppingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsPoppingTests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsPoppingTests/Pods-WhatsPoppingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D882D55E27D186A300C9546E /* WhatsPopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsPopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D882D56127D186A300C9546E /* WhatsPoppingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsPoppingApp.swift; sourceTree = "<group>"; };
+		D882D56327D186A300C9546E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D882D56527D186A600C9546E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D882D56827D186A600C9546E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D882D56E27D186A700C9546E /* WhatsPoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsPoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D882D57227D186A700C9546E /* WhatsPoppingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsPoppingTests.swift; sourceTree = "<group>"; };
+		D882D57827D186A700C9546E /* WhatsPoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsPoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D882D57C27D186A700C9546E /* WhatsPoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsPoppingUITests.swift; sourceTree = "<group>"; };
+		D882D57E27D186A700C9546E /* WhatsPoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsPoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D882D58E27D1882D00C9546E /* ReviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewList.swift; sourceTree = "<group>"; };
+		D8C3D4552809F47300E8D7DF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D8F98DBD2808983C00A5B195 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F2505615C649B8A40D639549 /* Pods_WhatsPoppingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsPoppingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D882D55B27D186A300C9546E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C01DB53AF6C80B2DBD1FE5 /* Pods_WhatsPopping.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D882D56B27D186A700C9546E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC83569268A535CE3AACFE00 /* Pods_WhatsPoppingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D882D57527D186A700C9546E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B912C3AE4071CAA37EDAFED7 /* Pods_WhatsPopping_WhatsPoppingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B49AFDF03F52573E96D9873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43BBD8E65EF4D3A1291491D5 /* Pods_WhatsPopping.framework */,
+				A53C7AC4CACE0DD970C2953F /* Pods_WhatsPopping_WhatsPoppingUITests.framework */,
+				F2505615C649B8A40D639549 /* Pods_WhatsPoppingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A59B855FB13ED2B071481AA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88F1097200CCFD821A5E1317 /* Pods-WhatsPopping.debug.xcconfig */,
+				4887AFC0648CAC609C7EF0C3 /* Pods-WhatsPopping.release.xcconfig */,
+				0920662E889199D36BAD0B3E /* Pods-WhatsPopping-WhatsPoppingUITests.debug.xcconfig */,
+				32EC6225D1E89FBA2FD6B978 /* Pods-WhatsPopping-WhatsPoppingUITests.release.xcconfig */,
+				CAF2597C826DE3429A034B63 /* Pods-WhatsPoppingTests.debug.xcconfig */,
+				B95F57F755733B55E220CF63 /* Pods-WhatsPoppingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D882D55527D186A300C9546E = {
+			isa = PBXGroup;
+			children = (
+				D882D56027D186A300C9546E /* WhatsPopping */,
+				D882D57127D186A700C9546E /* WhatsPoppingTests */,
+				D882D57B27D186A700C9546E /* WhatsPoppingUITests */,
+				D882D55F27D186A300C9546E /* Products */,
+				A59B855FB13ED2B071481AA0 /* Pods */,
+				4B49AFDF03F52573E96D9873 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D882D55F27D186A300C9546E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D882D55E27D186A300C9546E /* WhatsPopping.app */,
+				D882D56E27D186A700C9546E /* WhatsPoppingTests.xctest */,
+				D882D57827D186A700C9546E /* WhatsPoppingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D882D56027D186A300C9546E /* WhatsPopping */ = {
+			isa = PBXGroup;
+			children = (
+				5FC90D5C281DB423002A2A7A /* GoogleService-Info.plist */,
+				D882D58B27D1876900C9546E /* models */,
+				D882D58D27D1877800C9546E /* views */,
+				D882D56127D186A300C9546E /* WhatsPoppingApp.swift */,
+				D882D56527D186A600C9546E /* Assets.xcassets */,
+				D882D56727D186A600C9546E /* Preview Content */,
+			);
+			path = WhatsPopping;
+			sourceTree = "<group>";
+		};
+		D882D56727D186A600C9546E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D882D56827D186A600C9546E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D882D57127D186A700C9546E /* WhatsPoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D882D57227D186A700C9546E /* WhatsPoppingTests.swift */,
+			);
+			path = WhatsPoppingTests;
+			sourceTree = "<group>";
+		};
+		D882D57B27D186A700C9546E /* WhatsPoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D882D57C27D186A700C9546E /* WhatsPoppingUITests.swift */,
+				D882D57E27D186A700C9546E /* WhatsPoppingUITestsLaunchTests.swift */,
+			);
+			path = WhatsPoppingUITests;
+			sourceTree = "<group>";
+		};
+		D882D58B27D1876900C9546E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D882D58E27D1882D00C9546E /* ReviewList.swift */,
+				D8C3D4552809F47300E8D7DF /* LoginController.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D882D58D27D1877800C9546E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D882D56327D186A300C9546E /* ContentView.swift */,
+				978FEBAE27DFC7B200C925D7 /* RatingView.swift */,
+				D8F98DBD2808983C00A5B195 /* LoginView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D882D55D27D186A300C9546E /* WhatsPopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D882D58227D186A700C9546E /* Build configuration list for PBXNativeTarget "WhatsPopping" */;
+			buildPhases = (
+				457CAE7999E7BD0D93AF80C3 /* [CP] Check Pods Manifest.lock */,
+				D882D55A27D186A300C9546E /* Sources */,
+				D882D55B27D186A300C9546E /* Frameworks */,
+				D882D55C27D186A300C9546E /* Resources */,
+				F5601640CE91907A28AF8E04 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsPopping;
+			productName = WhatsPopping;
+			productReference = D882D55E27D186A300C9546E /* WhatsPopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D882D56D27D186A700C9546E /* WhatsPoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D882D58527D186A700C9546E /* Build configuration list for PBXNativeTarget "WhatsPoppingTests" */;
+			buildPhases = (
+				E0017D43CA3C819368A794F1 /* [CP] Check Pods Manifest.lock */,
+				D882D56A27D186A700C9546E /* Sources */,
+				D882D56B27D186A700C9546E /* Frameworks */,
+				D882D56C27D186A700C9546E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D882D57027D186A700C9546E /* PBXTargetDependency */,
+			);
+			name = WhatsPoppingTests;
+			productName = WhatsPoppingTests;
+			productReference = D882D56E27D186A700C9546E /* WhatsPoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D882D57727D186A700C9546E /* WhatsPoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D882D58827D186A700C9546E /* Build configuration list for PBXNativeTarget "WhatsPoppingUITests" */;
+			buildPhases = (
+				99F4874E9A10967014034412 /* [CP] Check Pods Manifest.lock */,
+				D882D57427D186A700C9546E /* Sources */,
+				D882D57527D186A700C9546E /* Frameworks */,
+				D882D57627D186A700C9546E /* Resources */,
+				B1C17C3231E1106973B2B72A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D882D57A27D186A700C9546E /* PBXTargetDependency */,
+			);
+			name = WhatsPoppingUITests;
+			productName = WhatsPoppingUITests;
+			productReference = D882D57827D186A700C9546E /* WhatsPoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D882D55627D186A300C9546E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D882D55D27D186A300C9546E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D882D56D27D186A700C9546E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D882D55D27D186A300C9546E;
+					};
+					D882D57727D186A700C9546E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D882D55D27D186A300C9546E;
+					};
+				};
+			};
+			buildConfigurationList = D882D55927D186A300C9546E /* Build configuration list for PBXProject "WhatsPopping" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D882D55527D186A300C9546E;
+			productRefGroup = D882D55F27D186A300C9546E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D882D55D27D186A300C9546E /* WhatsPopping */,
+				D882D56D27D186A700C9546E /* WhatsPoppingTests */,
+				D882D57727D186A700C9546E /* WhatsPoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D882D55C27D186A300C9546E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882D56927D186A600C9546E /* Preview Assets.xcassets in Resources */,
+				D882D56627D186A600C9546E /* Assets.xcassets in Resources */,
+				5FC90D5D281DB423002A2A7A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D882D56C27D186A700C9546E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D882D57627D186A700C9546E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		457CAE7999E7BD0D93AF80C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsPopping-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99F4874E9A10967014034412 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsPopping-WhatsPoppingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C17C3231E1106973B2B72A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsPopping-WhatsPoppingUITests/Pods-WhatsPopping-WhatsPoppingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsPopping-WhatsPoppingUITests/Pods-WhatsPopping-WhatsPoppingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsPopping-WhatsPoppingUITests/Pods-WhatsPopping-WhatsPoppingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0017D43CA3C819368A794F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsPoppingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5601640CE91907A28AF8E04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsPopping/Pods-WhatsPopping-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsPopping/Pods-WhatsPopping-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsPopping/Pods-WhatsPopping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D882D55A27D186A300C9546E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882D56427D186A300C9546E /* ContentView.swift in Sources */,
+				D8C3D4562809F47300E8D7DF /* LoginController.swift in Sources */,
+				D882D58F27D1882D00C9546E /* ReviewList.swift in Sources */,
+				D882D56227D186A300C9546E /* WhatsPoppingApp.swift in Sources */,
+				D8F98DBE2808983C00A5B195 /* LoginView.swift in Sources */,
+				978FEBAF27DFC7B200C925D7 /* RatingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D882D56A27D186A700C9546E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882D57327D186A700C9546E /* WhatsPoppingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D882D57427D186A700C9546E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882D57F27D186A700C9546E /* WhatsPoppingUITestsLaunchTests.swift in Sources */,
+				D882D57D27D186A700C9546E /* WhatsPoppingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D882D57027D186A700C9546E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D882D55D27D186A300C9546E /* WhatsPopping */;
+			targetProxy = D882D56F27D186A700C9546E /* PBXContainerItemProxy */;
+		};
+		D882D57A27D186A700C9546E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D882D55D27D186A300C9546E /* WhatsPopping */;
+			targetProxy = D882D57927D186A700C9546E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D882D58027D186A700C9546E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D882D58127D186A700C9546E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D882D58327D186A700C9546E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F1097200CCFD821A5E1317 /* Pods-WhatsPopping.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsPopping/Preview Content\"";
+				DEVELOPMENT_TEAM = C22RMSRVDW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.WhatsPopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D882D58427D186A700C9546E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4887AFC0648CAC609C7EF0C3 /* Pods-WhatsPopping.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsPopping/Preview Content\"";
+				DEVELOPMENT_TEAM = C22RMSRVDW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.WhatsPopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D882D58627D186A700C9546E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF2597C826DE3429A034B63 /* Pods-WhatsPoppingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.WhatsPoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsPopping.app/WhatsPopping";
+			};
+			name = Debug;
+		};
+		D882D58727D186A700C9546E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95F57F755733B55E220CF63 /* Pods-WhatsPoppingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.WhatsPoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsPopping.app/WhatsPopping";
+			};
+			name = Release;
+		};
+		D882D58927D186A700C9546E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0920662E889199D36BAD0B3E /* Pods-WhatsPopping-WhatsPoppingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.WhatsPoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsPopping;
+			};
+			name = Debug;
+		};
+		D882D58A27D186A700C9546E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EC6225D1E89FBA2FD6B978 /* Pods-WhatsPopping-WhatsPoppingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.WhatsPoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsPopping;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D882D55927D186A300C9546E /* Build configuration list for PBXProject "WhatsPopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D882D58027D186A700C9546E /* Debug */,
+				D882D58127D186A700C9546E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D882D58227D186A700C9546E /* Build configuration list for PBXNativeTarget "WhatsPopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D882D58327D186A700C9546E /* Debug */,
+				D882D58427D186A700C9546E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D882D58527D186A700C9546E /* Build configuration list for PBXNativeTarget "WhatsPoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D882D58627D186A700C9546E /* Debug */,
+				D882D58727D186A700C9546E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D882D58827D186A700C9546E /* Build configuration list for PBXNativeTarget "WhatsPoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D882D58927D186A700C9546E /* Debug */,
+				D882D58A27D186A700C9546E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D882D55627D186A300C9546E /* Project object */;
+}
